@@ -20,7 +20,7 @@ showTime();
 
 var audio = document.createElement("AUDIO");
 document.body.appendChild(audio);
-audio.src = "../clock/audio/Sedaye.Baran(10).mp3";
+audio.src = "../audio/Sedaye.Baran(10).mp3";
 
 document.body.addEventListener("click", function() {
     audio.play();
